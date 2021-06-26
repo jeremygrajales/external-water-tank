@@ -9,8 +9,8 @@ boolean ledState = LOW;
 #define SENSOR  2
 #define LED_BUILTIN 16
 
-const char* ssid = "MemoryAlpha";     // replace with your wifi ssid and wpa2 key
-const char* password = "Bevel111";
+const char* ssid = "ssid";     // replace with your wifi ssid and wpa2 key
+const char* password = "password";
 const char* mqtt_server = "c9.dev.jeremygrajales.com";
 
 WiFiClient espClient;

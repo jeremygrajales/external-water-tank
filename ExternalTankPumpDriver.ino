@@ -16,8 +16,8 @@ long pumpCooldownTime = 0;
 #define PUMP_MAX_RUNTIME 30
 #define PUMP_COOLDOWN_TIME 60
 
-const char* ssid = "MemoryAlpha";     // replace with your wifi ssid and wpa2 key
-const char* password = "Bevel111";
+const char* ssid = "ssid";     // replace with your wifi ssid and wpa2 key
+const char* password = "password";
 const char* mqtt_server = "c9.dev.jeremygrajales.com";
 
 WiFiClient espClient;
